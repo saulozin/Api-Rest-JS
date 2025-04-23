@@ -1,0 +1,18 @@
+- Criação da migration da tabela alunos para a base de dados:
+npx sequelize migration:create --name=alunos
+
+- executa a migracao do scrip para o banco de dados
+npx sequelize db:migrate
+
+- instala o token
+npm i jsonwebtoken
+
+- instala o Bcryptjs para a senha:
+npm i Bcryptjs
+
+- upload de arquivos:
+npm i multer
+
+- Deploy:
+npm run build
+npm start
